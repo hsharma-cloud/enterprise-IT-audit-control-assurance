@@ -111,11 +111,8 @@ This project reflects real-world capabilities in:
 * Control Evaluation
 * Governance and Compliance
 
----
-
-## 📊 Architecture & Audit Diagrams
-
 ### 🏗️ Enterprise Architecture
+
 ```mermaid
 flowchart LR
 User --> Endpoint
@@ -126,6 +123,7 @@ AzureAD --> Apps
 Apps --> DB[(Database)]
 Apps --> Logs
 Logs --> SIEM
+
 
 
 ## 🧠 Author
