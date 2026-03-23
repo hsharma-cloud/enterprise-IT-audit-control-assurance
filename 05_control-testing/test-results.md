@@ -1,0 +1,105 @@
+# Test Results
+
+**Project:** enterprise-IT-audit-control-assurance
+**Version:** 1.0
+**Owner:** IT Audit Function
+
+---
+
+## 1. Purpose
+
+The purpose of this document is to record the results of control testing performed during the audit. It provides a structured record of test execution, evidence collected, and conclusions regarding control effectiveness.
+
+---
+
+## 2. Objectives
+
+* Document outcomes of control testing
+* Provide evidence-based conclusions
+* Identify control deficiencies and exceptions
+* Support development of audit findings
+
+---
+
+## 3. Results Structure
+
+Each test result includes:
+
+* Test ID
+* Control ID
+* Test Description
+* Test Type (ToD / ToE)
+* Result (Effective / Partially Effective / Ineffective)
+* Observations
+* Evidence Reference
+
+---
+
+## 4. Test Results Summary
+
+| Test ID | Control ID | Description                  | Type    | Result              | Observation                              | Evidence Ref |
+| ------- | ---------- | ---------------------------- | ------- | ------------------- | ---------------------------------------- | ------------ |
+| AP-01   | C-001      | MFA Enforcement              | ToD/ToE | Effective           | MFA enabled for all sampled users        | EV-001       |
+| AP-02   | C-007      | Firewall Rule Enforcement    | ToD/ToE | Effective           | Rules align with policy                  | EV-002       |
+| AP-03   | C-002      | Role-Based Access Control    | ToD/ToE | Partially Effective | Some users have excessive permissions    | EV-003       |
+| AP-04   | C-004      | Privileged Access Monitoring | ToE     | Effective           | Logs monitored and alerts configured     | EV-004       |
+| AP-05   | C-003      | User Deprovisioning          | ToE     | Ineffective         | Delays in removing access for some users | EV-005       |
+| AP-06   | C-005      | Centralized Logging          | ToD/ToE | Effective           | Logs collected and monitored             | EV-006       |
+| AP-07   | C-006      | Patch Management             | ToE     | Partially Effective | Some systems not patched on time         | EV-007       |
+
+---
+
+## 5. Result Classification
+
+### 5.1 Effective
+
+* Control is properly designed and operating consistently
+
+### 5.2 Partially Effective
+
+* Control exists but has weaknesses or inconsistencies
+
+### 5.3 Ineffective
+
+* Control is missing, poorly designed, or not operating
+
+---
+
+## 6. Key Observations
+
+* Excessive access permissions identified in some user accounts
+* Delays in user deprovisioning process
+* Inconsistent patching across systems
+
+---
+
+## 7. Exceptions Identified
+
+Exceptions include:
+
+* Users with inappropriate access levels
+* Delayed removal of access for terminated users
+* Systems not meeting patching timelines
+
+---
+
+## 8. Evidence Reference
+
+Evidence is stored in the audit evidence repository and includes:
+
+* System screenshots
+* Logs and reports
+* Configuration files
+
+Each test result references corresponding evidence IDs.
+
+---
+
+## 9. Conclusion
+
+Control testing results indicate that while several controls are operating effectively, some controls require improvement to fully mitigate associated risks.
+
+---
+
+**End of Document**
+
