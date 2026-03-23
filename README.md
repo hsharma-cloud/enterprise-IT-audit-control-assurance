@@ -113,6 +113,21 @@ This project reflects real-world capabilities in:
 
 ---
 
+## 📊 Architecture & Audit Diagrams
+
+### 🏗️ Enterprise Architecture
+```mermaid
+flowchart LR
+User --> Endpoint
+Endpoint --> AD[Active Directory]
+Endpoint --> AzureAD[Cloud Identity]
+AD --> Apps
+AzureAD --> Apps
+Apps --> DB[(Database)]
+Apps --> Logs
+Logs --> SIEM
+
+
 ## 🧠 Author
 
 **Hari Sharma**
