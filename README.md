@@ -126,14 +126,4 @@ Logs --> SIEM
 
 ###
 
-## 🧠 Author
-
-**Hari Sharma**
-GitHub: https://github.com/hsharma-cloud
-
----
-
-## 📌 Notes
-
-This project is designed as a practical demonstration of enterprise audit practices and is suitable for showcasing audit, security, and governance capabilities.
 
