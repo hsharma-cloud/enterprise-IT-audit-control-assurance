@@ -124,6 +124,5 @@ Apps --> DB[(Database)]
 Apps --> Logs
 Logs --> SIEM
 
-###
 
 
