@@ -12,6 +12,8 @@ The purpose of this document is to record the results of control testing perform
 
 ---
 
+
+
 ## 2. Objectives
 
 * Document outcomes of control testing
@@ -34,6 +36,25 @@ Each test result includes:
 * Evidence Reference
 
 ---
+
+---
+
+## 4. Executive Summary
+
+This control testing activity evaluated the effectiveness of cloud security controls across compute, storage, and identity services.
+
+Testing identified multiple security issues, including a critical attack path that could allow unauthorized access to sensitive data through a combination of public exposure, excessive permissions, and resource misconfigurations.
+
+Automated validation using Wiz provided visibility into misconfigurations, vulnerabilities, and identity risks, enabling prioritized remediation based on real-world attack scenarios.
+
+Key risks identified include:
+- Publicly exposed compute resources
+- Over-permissioned IAM roles
+- Unrestricted network access via security groups
+
+These findings indicate gaps in control implementation and highlight the need for improved enforcement of least privilege, network restrictions, and secure configuration practices.
+
+Overall, the control environment requires remediation to reduce risk exposure and align with security best practices and compliance frameworks such as CIS and NIST.
 
 ## 4. Test Results Summary
 
