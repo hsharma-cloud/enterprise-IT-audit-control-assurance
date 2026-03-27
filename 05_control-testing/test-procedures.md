@@ -222,6 +222,7 @@ For each test:
 ## 7. Conclusion
 
 Test procedures provide a consistent and structured approach to evaluating controls and ensuring reliable audit outcomes.
+Detailed evidence and validation outputs are documented in Section 06: Evidence and Validation.
 
 ---
 
