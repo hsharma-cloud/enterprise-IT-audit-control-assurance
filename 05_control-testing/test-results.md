@@ -136,5 +136,55 @@ An external attacker could potentially:
 ### Severity
 Critical
 
+### Control Mapping
+
+| Control Framework | Control ID | Description |
+|------------------|-----------|------------|
+| CIS AWS Foundations | 4.1 | Ensure no security groups allow unrestricted inbound access |
+| CIS AWS Foundations | 1.16 | Ensure IAM policies follow least privilege |
+| NIST SP 800-53 | AC-6 | Least Privilege |
+| NIST SP 800-53 | SC-7 | Boundary Protection |
+
+### Compliance Impact
+The identified issues indicate non-compliance with established security best practices and control frameworks. Failure to remediate may result in increased risk exposure and potential audit findings.
+## Finding: Overly Permissive Security Group Configuration
+
+### Description
+A security group was identified allowing unrestricted inbound access from the internet, increasing exposure of cloud resources.
+
+### Observation
+- Security group allows inbound traffic from 0.0.0.0/0
+- Ports exposed include SSH (22) and/or HTTP (80)
+
+### Risk
+Unrestricted access increases the likelihood of:
+- Unauthorized access attempts
+- Brute-force attacks
+- Exploitation of exposed services
+
+### Impact
+- Increased attack surface
+- Potential compromise of compute resources
+
+### Evidence
+- Security group configuration review
+- Findings identified through Wiz cloud security platform
+
+### Recommendation
+- Restrict inbound access to trusted IP ranges
+- Implement bastion host or VPN for administrative access
+
+### Severity
+Medium
+
+### Control Mapping
+
+| Control Framework | Control ID | Description |
+|------------------|-----------|------------|
+| CIS AWS Foundations | 4.1 | Ensure no security groups allow unrestricted inbound access |
+| NIST SP 800-53 | SC-7 | Boundary Protection |
+
+### Compliance Impact
+The configuration does not align with recommended network security practices and increases exposure to external threats.
 **End of Document**
 
