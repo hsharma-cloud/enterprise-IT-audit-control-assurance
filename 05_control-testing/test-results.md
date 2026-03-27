@@ -100,6 +100,7 @@ Each test result references corresponding evidence IDs.
 Control testing results indicate that while several controls are operating effectively, some controls require improvement to fully mitigate associated risks.
 
 ---
+Detailed evidence and validation outputs are documented in Section 06: Evidence and Validation.
 
 **End of Document**
 
