@@ -102,5 +102,39 @@ Control testing results indicate that while several controls are operating effec
 ---
 Detailed evidence and validation outputs are documented in Section 06: Evidence and Validation.
 
+## Finding: Critical Cloud Attack Path Identified
+
+### Description
+A critical attack path was identified through automated analysis using Wiz. The path combines multiple security weaknesses that could allow an attacker to gain unauthorized access to sensitive data.
+
+### Observation
+- An EC2 instance was publicly accessible via an open security group
+- The EC2 instance had an attached IAM role with excessive permissions
+- The IAM role allowed access to S3 resources
+
+### Risk
+An external attacker could potentially:
+- Access the EC2 instance
+- Exploit vulnerabilities or misconfigurations
+- Leverage IAM role permissions
+- Access or exfiltrate sensitive data from S3
+
+### Impact
+- Unauthorized access to cloud resources
+- Potential data breach
+- Compromise of cloud environment
+
+### Evidence
+- Findings identified through Wiz cloud security platform
+- Configuration review of EC2, IAM roles, and S3 permissions
+
+### Recommendation
+- Restrict public access to EC2 instances
+- Apply least privilege to IAM roles
+- Review and secure S3 bucket permissions
+
+### Severity
+Critical
+
 **End of Document**
 
