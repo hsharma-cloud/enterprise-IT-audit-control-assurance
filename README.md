@@ -30,6 +30,7 @@ enterprise-IT-audit-control-assurance/
 ├── 03_risk-assessment/
 ├── 04_control-framework/
 ├── 05_control-testing/
+├── 06_evidence-and-validation/
 ├── 07_findings-management/
 ├── 08_reporting/
 ```
