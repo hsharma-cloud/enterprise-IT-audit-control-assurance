@@ -19,6 +19,53 @@ The objective is to evaluate the design and operating effectiveness of IT contro
 
 ---
 
+Hands-on enterprise security project implementing NIST-aligned controls using ELK Stack and SaltStack.
+
+## 🔐 Security Control Framework Alignment (NIST-Based)
+
+This project demonstrates hands-on implementation of enterprise security controls aligned with guidance from the National Institute of Standards and Technology (NIST), specifically referencing:
+
+- NIST SP 800-53 (Security and Privacy Controls)
+- NIST SP 800-171 (Protection of Controlled Unclassified Information)
+
+The environment simulates a real-world enterprise security monitoring and control system using Ubuntu-based infrastructure, ELK Stack (Elasticsearch, Logstash, Kibana), and SaltStack for configuration management.
+
+---
+
+### 🛠️ Implemented Control Families
+
+#### 🔑 Access Control (AC)
+- Implemented role-based access control (RBAC) principles
+- Enforced least privilege access across services and systems
+- Managed authentication and system access boundaries
+
+#### 📊 Audit & Accountability (AU)
+- Deployed centralized logging using ELK Stack
+- Collected and analyzed system and application logs
+- Enabled visibility into user and system activity for monitoring and auditing
+
+#### 🛡️ System & Communications Protection (SC)
+- Implemented network segmentation concepts using virtualized environments
+- Controlled traffic flow and secured communication channels
+- Applied firewall and access boundary principles
+
+#### 🔒 Configuration Management (CM)
+- Utilized SaltStack for automated configuration management
+- Established consistent system baselines
+- Enabled repeatable and scalable infrastructure deployment
+
+#### 🚨 Incident Response (IR)
+- Established monitoring capabilities to detect suspicious behavior
+- Enabled log-based investigation and response workflows
+
+---
+
+### 🎯 Key Outcome
+
+This project showcases practical application of NIST-aligned security controls in a lab-based environment, focusing on security monitoring, configuration management, and audit readiness.
+
+It bridges the gap between theoretical security frameworks and real-world implementation using modern cloud and infrastructure tools.
+
 ## 🏗️ Project Structure
 
 ```
